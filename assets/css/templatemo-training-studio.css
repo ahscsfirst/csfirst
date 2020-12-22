@@ -617,7 +617,7 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(35,45,57,0.8);
+    background-color: #AFD5AA;
     top: 0;
     left: 0;
     bottom: 7px;
