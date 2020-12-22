@@ -636,7 +636,7 @@ banner
 .main-banner .caption h6 {
   margin-top: 0px;
   font-size: 18px;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: 800;
   color: #fff;
   letter-spacing: 0.5px;
