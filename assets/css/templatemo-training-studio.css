@@ -182,7 +182,7 @@ body {
   display: inline-block;
   font-size: 15px;
   padding: 12px 20px;
-  background-color: #ed563b;
+  background-color: #C4E7D4;
   color: #fff;
   text-align: center;
   font-weight: 400;
@@ -191,7 +191,7 @@ body {
 }
 
 .main-button a:hover {
-  background-color: #f9735b;
+  background-color: #b9c0da;
 }
 
 
@@ -266,7 +266,7 @@ header
 
 .header-area .main-nav .logo em {
   font-style: normal;
-  color: #ed563b;
+  color: #C4E7D4;
   font-weight: 900;
 }
 
@@ -330,7 +330,7 @@ header
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #ed563b!important;
+  color: #C4E7D4!important;
   opacity: 1;
 }
 
@@ -654,7 +654,7 @@ banner
 
 .main-banner .caption h2 em {
   font-style: normal;
-  color: #ed563b;
+  color: #C4E7D4;
   font-weight: 900;
 }
 
