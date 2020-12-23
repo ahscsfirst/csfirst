@@ -108,6 +108,27 @@ p {
   color: #7a7a7a;
 }
 
+/* wave */
+.wavy::before {
+    content: "";
+    background-image: url(images/assets/wavy.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 30%;
+    width: 100%;
+    position: relative;
+    top: 70px;
+}
+.wavy::after {
+    content: "";
+    background-image: url(images/assets/wavy2.png);
+    background-size: 100% 100%;
+    display: inline-block;
+    height: 7%;
+    width: 100%;
+    position: relative;
+}
+
 /* 
 ---------------------------------------------
 global styles
