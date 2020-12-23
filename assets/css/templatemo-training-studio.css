@@ -111,7 +111,7 @@ p {
 /* wave */
 .wavy::before {
     content: "";
-    background-image: url(images/assets/wavy.png);
+    background-image: url(assets/images/wavy.png);
     background-size: 100% 100%;
     display: inline-block;
     height: 30%;
@@ -121,7 +121,7 @@ p {
 }
 .wavy::after {
     content: "";
-    background-image: url(images/assets/wavy2.png);
+    background-image: url(assets/images/wavy2.png);
     background-size: 100% 100%;
     display: inline-block;
     height: 7%;
@@ -173,8 +173,8 @@ body {
 }
 
 .section-heading h2 {
-  font-size: 28px;
-  font-weight: 800;
+  font-size: 45px;
+  font-weight: 600;
   color: #232d39;
   text-transform: uppercase;
   letter-spacing: 0.5px;
