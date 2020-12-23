@@ -109,7 +109,7 @@ p {
 }
 
 /* wave */
-.wavy::before {
+/* .wavy::before {
     content: "";
     background-image: url(../images/wavy.png);
     background-size: 100% 100%;
@@ -128,7 +128,7 @@ p {
     width: 100%;
     position: relative;
 }
-
+ */
 /* 
 ---------------------------------------------
 global styles
