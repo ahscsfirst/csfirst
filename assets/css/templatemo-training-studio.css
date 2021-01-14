@@ -23,16 +23,16 @@ Table of contents
 12. portfolio
 
 --------------------------------------------- */
-/* 
+/*
 ---------------------------------------------
 font & reset css
---------------------------------------------- 
+---------------------------------------------
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
-/* 
+/*
 ---------------------------------------------
 reset
---------------------------------------------- 
+---------------------------------------------
 */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
@@ -129,10 +129,10 @@ p {
     position: relative;
 }
 
-/* 
+/*
 ---------------------------------------------
 global styles
---------------------------------------------- 
+---------------------------------------------
 */
 html,
 body {
@@ -203,7 +203,7 @@ body {
   display: inline-block;
   font-size: 15px;
   padding: 12px 20px;
-  background-color: #556F7A;
+  background-color: #B9C0D3;
   color: #fff;
   text-align: center;
   font-weight: 400;
@@ -216,10 +216,10 @@ body {
 }
 
 
-/* 
+/*
 ---------------------------------------------
 header
---------------------------------------------- 
+---------------------------------------------
 */
 
 .background-header {
@@ -270,7 +270,7 @@ header
 .header-area .main-nav {
   min-height: 80px;
   /* background: transparent; */
-  background: green;
+  background: transparent;
 }
 
 .header-area .main-nav .logo {
@@ -495,7 +495,7 @@ header
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
   .header-area .main-nav .logo {
     color: #1e1e1e;
   }
@@ -607,17 +607,17 @@ header
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 1000px) {
   .header-area .main-nav .nav {
     display: flex !important;
   }
 }
 
 
-/* 
+/*
 ---------------------------------------------
 banner
---------------------------------------------- 
+---------------------------------------------
 */
 
 .main-banner {
@@ -854,15 +854,15 @@ Our Classes
 }
 
 
-/* 
+/*
 ---------------------------------------------
 schedule
---------------------------------------------- 
+---------------------------------------------
 */
 
 #schedule {
   padding: 0px 0px 140px 0px;
-  background-image: url(../images/alvin1.1.jpg);
+  background-image: url(../images/alvin1.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -875,7 +875,7 @@ schedule
 }
 
 #schedule table tbody {
-  border-top: 1px solid #fff; 
+  border-top: 1px solid #fff;
 }
 
 #schedule table tbody tr {
@@ -958,10 +958,10 @@ schedule
 }
 
 
-/* 
+/*
 ---------------------------------------------
 trainers
---------------------------------------------- 
+---------------------------------------------
 */
 
 #trainers .trainer-item {
@@ -1016,10 +1016,10 @@ trainers
 }
 
 
-/* 
+/*
 ---------------------------------------------
 contact
---------------------------------------------- 
+---------------------------------------------
 */
 
 #contact-us {
@@ -1100,10 +1100,10 @@ contact
 
 
 
-/* 
+/*
 ---------------------------------------------
 footer
---------------------------------------------- 
+---------------------------------------------
 */
 footer {
   text-align: center;
@@ -1126,10 +1126,10 @@ footer p a:hover {
 
 
 
-/* 
+/*
 ---------------------------------------------
 preloader
---------------------------------------------- 
+---------------------------------------------
 */
 
 .js-preloader {
@@ -1227,10 +1227,10 @@ preloader
 }
 
 
-/* 
+/*
 ---------------------------------------------
 responsive
---------------------------------------------- 
+---------------------------------------------
 */
 
 
