@@ -44,6 +44,10 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
+.bg{
+  background-image: url("images/cutebg.png");
+}
+
 .clearfix:after {
   content: ".";
   display: block;
