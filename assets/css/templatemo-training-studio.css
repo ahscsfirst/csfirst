@@ -45,7 +45,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 .bg{
-  background-image: url("images/cutebg.png");
+  background-image: url(".../images/cutebg.png");
 }
 
 .clearfix:after {
