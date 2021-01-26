@@ -44,10 +44,6 @@ figure, header, nav, section, article, aside, footer, figcaption {
   outline: 0;
 }
 
-.bg{
-  background-image: url(".../images/cutebg.png");
-}
-
 .clearfix:after {
   content: ".";
   display: block;
@@ -685,6 +681,7 @@ banner
 }
 
 
+
 /*
 ---------------------------------------------
 features
@@ -693,7 +690,10 @@ features
 
 #features {
   margin-bottom: 65px;
-}
+  /* background-image: url("../images/doot.svg");
+  background-repeat: no-repeat;
+  background-size: cover; */
+  }
 
 .feature-item {
   display: inline-block;
