@@ -108,6 +108,11 @@ p {
   color: #7a7a7a;
 }
 
+.teambg {
+  background-image: url("../images/csfirstersunite.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* wave */
 .wavy::before {
     content: "";
@@ -620,6 +625,7 @@ banner
 ---------------------------------------------
 */
 
+
 .main-banner {
   position: relative;
 }
@@ -644,6 +650,15 @@ banner
     left: 0;
     bottom: 7px;
     width: 100%;
+}
+
+.image-overlay {
+  position: absolute;
+  background-color: rgba(153, 141, 160, 0.6);
+  top: 0;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
 }
 
 .main-banner .caption {
