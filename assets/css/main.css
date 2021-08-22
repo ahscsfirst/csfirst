@@ -1,10 +1,3 @@
-/*
-
-TemplateMo 548 Training Studio
-
-https://templatemo.com/tm-548-training-studio
-
-*/
 
 /* ---------------------------------------------
 Table of contents
@@ -103,7 +96,7 @@ ul {
 }
 
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 25px;
   color: #7a7a7a;
 }
@@ -132,6 +125,13 @@ p {
     height: 7%;
     width: 100%;
     position: relative;
+}
+
+text-gradient {
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* background-image: linear-gradient(45deg, #F794B8 20%, #A4B6FA 70%, #C1DCF9 100%); */
 }
 
 /*
@@ -206,7 +206,7 @@ body {
 
 .main-button a {
   display: inline-block;
-  font-size: 15px;
+  font-size: 20px;
   padding: 12px 20px;
   background-color: #B9C0D3;
   color: #fff;
@@ -214,6 +214,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   transition: all .3s;
+  border-radius:50px;
 }
 
 .main-button a:hover {
@@ -348,11 +349,13 @@ header
   transition: all .3s;
   height: auto;
   line-height: 20px;
+  border-radius:50px;
 }
 
 .header-area .main-nav .nav li:last-child a:hover {
-  background-color: #B9C0DA;
+  background-color: #b9c0da;
   opacity: 1;
+  color: #fff;
 }
 
 .header-area .main-nav .nav li:hover a,
@@ -977,26 +980,77 @@ schedule
   transition: all 350ms;
 }
 
-
 /*
 ---------------------------------------------
-trainers
+about us infocards
 ---------------------------------------------
 */
 
-#trainers .trainer-item {
+#infocards .card-item {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+#infocards .card-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#infocards .card-item h4 {
+  font-size: 19px;
+  font-weight: 600;
+  color: #232d39;
+  letter-spacing: 0.5px;
+  margin-top: 25px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+#infocards .card-item p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#infocards .card-item ul.social-icons li {
+  display: inline-block;
+  margin-right: 12px;
+}
+
+#infocards .card-item ul.social-icons li:last-child {
+  margin-right: 0px;
+}
+
+#infocards .card-item ul.social-icons li a {
+  color: #232d39;
+  transition: all .3s;
+}
+
+#infocards .card-item ul.social-icons li a:hover {
+  color: #B9C0DA;
+}
+
+
+/*
+---------------------------------------------
+officer team
+---------------------------------------------
+*/
+
+#officers .officer-item {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   padding: 40px;
 }
 
-#trainers .trainer-item img {
+#officers .officer-item img {
   width: 100%;
   border-radius: 5px;
 }
 
-#trainers .trainer-item span {
+#officers .officer-item span {
   font-size: 13px;
   font-weight: 500;
   color: #B9C0DA;
@@ -1005,7 +1059,7 @@ trainers
   margin-bottom: 10px;
 }
 
-#trainers .trainer-item h4 {
+#officers .officer-item h4 {
   font-size: 19px;
   font-weight: 600;
   color: #232d39;
@@ -1013,25 +1067,25 @@ trainers
   margin-bottom: 18px;
 }
 
-#trainers .trainer-item p {
+#officers .officer-item p {
   margin-bottom: 20px;
 }
 
-#trainers .trainer-item ul.social-icons li {
+#officers .officer-item ul.social-icons li {
   display: inline-block;
   margin-right: 12px;
 }
 
-#trainers .trainer-item ul.social-icons li:last-child {
+#officers .officer-item ul.social-icons li:last-child {
   margin-right: 0px;
 }
 
-#trainers .trainer-item ul.social-icons li a {
+#officers .officer-item ul.social-icons li a {
   color: #232d39;
   transition: all .3s;
 }
 
-#trainers .trainer-item ul.social-icons li a:hover {
+#officers .officer-item ul.social-icons li a:hover {
   color: #B9C0DA;
 }
 
@@ -1042,9 +1096,6 @@ contact
 ---------------------------------------------
 */
 
-#contact-us {
-  margin-top: 140px;
-}
 
 #contact-us .container-fluid .col-lg-6 {
   padding: 0px;

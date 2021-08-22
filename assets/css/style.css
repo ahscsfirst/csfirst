@@ -34,7 +34,7 @@ a:focus {
 	outline: none;
 }
 
-.tm-brand-icon { 
+.tm-brand-icon {
 	padding: 10px;
     background: none;
     color: black;
@@ -42,7 +42,7 @@ a:focus {
     margin-right: 15px;
 }
 
-.container-fluid { 
+.container-fluid {
 	width: 100%; /* IE fix */
 	padding-left: 0;
 	padding-right: 0;
@@ -69,10 +69,10 @@ a:focus {
 	vertical-align: top;
 }
 
-.cd-slider-nav li { 
+.cd-slider-nav li {
 	display: block;
 	float: none;
-	width: auto;	
+	width: auto;
 }
 
 .tm-navbar { float: right; }
@@ -127,7 +127,7 @@ button:focus { outline: none; }
     font-weight: 400;
     font-size: 1em;
 	vertical-align: middle;
-    width: 130px; 
+    width: 130px;
 }
 
 .cd-slider-nav .nav-item.selected .nav-link,
@@ -138,9 +138,9 @@ button:focus { outline: none; }
 
 /* Hero Slider */
 .cd-hero-slider { height: 100vh; }
-.cd-hero-slider li { 
+.cd-hero-slider li {
 	background-color: #2c343b;
-	list-style: none; 
+	list-style: none;
 }
 
 /* Background & menu colors */
@@ -160,35 +160,35 @@ button:focus { outline: none; }
 .cd-slider-nav .nav-item:nth-of-type(2).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(2) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(2) .nav-link:focus {
-			
+
 	background-color: #ed544c;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(3).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(3) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(3) .nav-link:focus {
-		
-	background-color: #eaa319;	
+
+	background-color: #eaa319;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(4).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(4) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(4) .nav-link:focus {
-	
+
 	background-color: #16b5a3;
 }
 
 .cd-slider-nav .nav-item:nth-of-type(5).selected .nav-link,
 .cd-slider-nav .nav-item:nth-of-type(5) .nav-link:hover,
 .cd-slider-nav .nav-item:nth-of-type(5) .nav-link:focus {
-	
-	background-color: #447fca;		
+
+	background-color: #447fca;
 }
 
 .tm-bg-white-translucent { background-color: rgba(255,255,255,0.8); }
 .tm-bg-white-translucent p { color: black; }
-.tm-textbox { 
-	display: inline-block; 
+.tm-textbox {
+	display: inline-block;
 	width: 100%;
 }
 
@@ -197,12 +197,12 @@ button:focus { outline: none; }
 	width: 100%;
 }
 
-.cd-hero-slider .tm-text { 
+.cd-hero-slider .tm-text {
 	font-size: 1em;
-	line-height: 1.8; 
+	line-height: 1.8;
 }
 
-.cd-full-width .container-fluid.tm-page-width { 
+.cd-full-width .container-fluid.tm-page-width {
 	max-width: none;
 	margin-left: auto;
 	margin-right: auto;
@@ -237,7 +237,7 @@ button:focus { outline: none; }
 .tm-footer {
 	position: absolute;
 	bottom: 0;
-	left: 0;	
+	left: 0;
 }
 
 .tm-footer {
@@ -293,7 +293,7 @@ button:focus { outline: none; }
 
 textarea { height: 168px; }
 
-/* Preloader 
+/* Preloader
 	https://ihatetomatoes.net/create-custom-preloading-screen/
 */
 /* ==========================================================================
@@ -324,22 +324,22 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 /* Loaded */
 .loaded #loader-wrapper .loader-section.section-left {  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
-	transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */  
+	transform: translateX(-100%);  /* Firefox 16+, IE 10+, Opera */
 	transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
 .loaded #loader-wrapper .loader-section.section-right {  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
-	transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */  
+	transform: translateX(100%);  /* Firefox 16+, IE 10+, Opera */
 	transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
 .loaded #loader {
-	opacity: 0;  
+	opacity: 0;
 	transition: all 0.3s ease-out;
 }
 .loaded #loader-wrapper {
 	visibility: hidden;  /* Chrome, Opera 15+, Safari 3.1+ */  /* IE 9 */
-	transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */  
+	transform: translateY(-100%);  /* Firefox 16+, IE 10+, Opera */
 	transition: all 0.3s 1s ease-out;
 }
 
@@ -357,12 +357,12 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 .cd-slider-nav .navbar-nav { background-color: rgba(255,255,255,0.7); }
 
-.cd-slider-nav a, 
+.cd-slider-nav a,
 .navbar-nav .nav-link { height: 50px; }
 
 .cd-hero-slider .cd-full-width { padding-top: 50px; }
 
-.tm-brand-icon { 
+.tm-brand-icon {
 	font-size: 3rem;
 	padding: 10px;
 }
@@ -372,9 +372,9 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 .tm-2-col-textbox-2 {
 	width: 100%;
 	padding: 25px;
-	margin-bottom: 30px; 
-	-ms-flex: 0 1 auto; 
-	    flex: 0 1 auto; 
+	margin-bottom: 30px;
+	-ms-flex: 0 1 auto;
+	    flex: 0 1 auto;
 	        /* Fix flexbox in IE 10 bug https://philipwalton.com/articles/normalizing-cross-browser-flexbox-bugs/ */
 }
 
@@ -414,7 +414,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ animation: spin 1.
 
 #google-map {
     height: 430px;
-    width: 100%;    
+    width: 100%;
 }
 
 .tm-copyright-text {
@@ -549,7 +549,7 @@ figure.effect-sadie:hover p {
 .cd-hero-slider .selected .cd-full-width figure.effect-sadie:hover .tm-figure-title,
 .cd-hero-slider .selected .cd-full-width figure.effect-sadie:hover p.tm-figure-description {
     opacity: 1;
-    text-shadow:  2px 2px 6px #000;	
+    text-shadow:  2px 2px 6px #000;
 }
 
 .cd-hero-slider .selected .cd-full-width figure.effect-sadie:hover p.tm-figure-description {
@@ -583,7 +583,7 @@ figure.effect-sadie:hover p {
 	.tm-textbox-padding { padding: 30px 40px; }
 	.tm-textbox-padding-contact { padding: 30px; }
 	.grid-item { width: 50%; }
-	.grid-item figure figcaption { padding: 1.5em; }	
+	.grid-item figure figcaption { padding: 1.5em; }
 }
 
 @media only screen and (min-width: 600px) {
@@ -591,10 +591,10 @@ figure.effect-sadie:hover p {
 	.tm-copyright-text { width: auto; }
 }
 
-@media only screen and (min-width: 720px) {	
-	.tm-footer { 
-		-ms-flex-direction: row; 
-			flex-direction: row; 
+@media only screen and (min-width: 720px) {
+	.tm-footer {
+		-ms-flex-direction: row;
+			flex-direction: row;
 	}
 
 	.tm-copyright-text { margin-top: 0; }
@@ -602,12 +602,12 @@ figure.effect-sadie:hover p {
 
 @media only screen and (min-width: 768px) {
 
-	.tm-flex { 
-		display: -ms-flexbox; 
+	.tm-flex {
+		display: -ms-flexbox;
 		display: flex;
 	}
 
-	.tm-2-col-textbox-2 {	
+	.tm-2-col-textbox-2 {
 		margin-bottom: 0;
 		margin-right: 30px;
 		width: 100%;
@@ -618,14 +618,14 @@ figure.effect-sadie:hover p {
 }
 
 @media only screen and (min-width: 992px) {
-	.tm-navbar-bg { 
-		padding-left: 25px; 
+	.tm-navbar-bg {
+		padding-left: 25px;
 		padding-right: 0;
 	}
 
 	.tm-navbar {
 		position: static;
-		height: auto !important;		
+		height: auto !important;
 	}
 
 	.cd-slider-nav .navbar-nav {
@@ -634,13 +634,13 @@ figure.effect-sadie:hover p {
 		display: flex;
 	}
 
-	.cd-slider-nav li {	
-		display: inline-block; 
+	.cd-slider-nav li {
+		display: inline-block;
 		width: auto;
 		height: auto;
 	}
 
-	.cd-slider-nav a, 
+	.cd-slider-nav a,
 	.navbar-nav .nav-link {
 		height: 80px;
 	}
@@ -664,13 +664,13 @@ figure.effect-sadie:hover p {
 		max-width: 1200px;
 	}
 
-	.grid-item { width: 25%; }	
-	.grid-item figure figcaption { padding: 1em; }	
+	.grid-item { width: 25%; }
+	.grid-item figure figcaption { padding: 1em; }
 }
 
 @media only screen and (min-width: 1063px) {
-	.cd-slider-nav { top: 0; }	
-	.cd-slider-nav nav { padding: 0; }	
+	.cd-slider-nav { top: 0; }
+	.cd-slider-nav nav { padding: 0; }
 	.tm-brand-icon { margin-right: 15px; }
 	.tm-contact-page, .tm-about-page { padding: 20px 20px 0; }
 	.cd-full-width .container-fluid.tm-page-width {
@@ -683,9 +683,9 @@ figure.effect-sadie:hover p {
 	}
 }
 
-@media only screen and (min-width: 1170px) {	
+@media only screen and (min-width: 1170px) {
 	.cd-hero-slider h2, .cd-hero-slider p { margin-bottom: 20px; }
-	.cd-hero-slider p:last-child { margin-bottom: 0; }	
+	.cd-hero-slider p:last-child { margin-bottom: 0; }
 	.cd-hero-slider .tm-text { font-size: 1em; }
 	.grid-item figure figcaption { padding: 2em; }
 }
@@ -705,7 +705,7 @@ figure.effect-sadie:hover p {
 		padding-right: 0;
 	}
 
-	.tm-brand-icon { 
+	.tm-brand-icon {
 		font-size: 4rem;
     	padding: 10px;
 		margin-right: 15px;
@@ -714,10 +714,10 @@ figure.effect-sadie:hover p {
 }
 
 @media only screen and (min-width: 1340px) {
-	.cd-full-width .container-fluid.tm-page-width { 
-		padding-left: 0; 
+	.cd-full-width .container-fluid.tm-page-width {
+		padding-left: 0;
 		padding-right: 0;
-	}	
+	}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
