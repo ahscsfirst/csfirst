@@ -85,316 +85,119 @@ https://templatemo.com/tm-548-training-studio
     </div>
 
     <!-- ***** Testimonials Starts ***** -->
-    <section class="section" id="trainers">
+    <section class="section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 offset-lg-3">
                     <div class="section-heading">
                         <h2>Club <em>Executives</em></h2>
-                        <img src="assets/images/triangles__1_-removebg-preview.png" alt="triangles" style="width: 3em;">
+                        <img src="assets/images/triangles.png" alt="triangles" style="width: 3em;">
                         <p>We help coordinate events, plan logistics, and make sure the club runs smoothly.</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            
+            <button class="w3-button w3-display-left" onclick="plusDivs(-3)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+3)">&#10095;</button>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("officer-item");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length} ;
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex-1].style.display = "block";
+                }
+            </script>
+            
+            <div class="row" id = "officers">
                 <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/joycee.jpg" alt="">
-                        </div>
+                    <div class="officer-item">
+                        <img src="assets/images/joycee.jpg" alt="joyce chen">
                         <div class="down-content">
-                            <span>President</span>
                             <h4>Joyce Chen</h4>
-                            <p>Hey, I'm Joyce, a junior at AHS! I've only recently discovered my passion for CS last year, when I took a summer class on Java programming. Some of my hobbies include listening to Lauv and Hua Chenyu, watching kdramas, and browsing through Facebook memes! Through this club, I hope to create a safe and welcoming environment for every student interested in CS :)</p>
+                            <span>President</span>
+                            <p>Hey, I'm Joyce, a senior at AHS! Through this club, I hope to create a safe and welcoming environment for every student interested in CS :) Some of my hobbies include listening to Lauv and Hua Chenyu, watching kdramas, and browsing Facebook memes! </p>
                             <ul class="social-icons">
                               <li><a href="https://www.facebook.com/profile.php?id=100028434800872" target = "_blank"><i class="fa fa-facebook"></i></a></li>
                               <li><a href="https://www.instagram.com/winterberry._._/" target = "_blank"><i class="fa fa-instagram"></i></a></li>
                               <li><a href="https://www.linkedin.com/in/joyce-chen-ahs/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-<!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
+                    <div class="officer-item">
+                        <img src="" alt="subhon ghosh">
                         <div class="down-content">
-                            <span>Vice President</span>
-                            <h4>Arav Tewari</h4>
-                            <p></p>
-                            <ul class="social-icons">
-                                <li><a href="https://www.facebook.com/profile.php?id=100028434800872" target = "_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/winterberry._._/" target = "_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/joyce-chen-ahs/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-<!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Vice President</span>
                             <h4>Subhon Ghosh</h4>
+                            <span>Vice President</span>
                             <p></p>
                             <ul class="social-icons">
-                                <li><a href="https://www.facebook.com/emeyetc" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/emahtm/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/emily-wang-22a09a1a8/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-<!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
+                              <li><a href="https://www.facebook.com/profile.php?id=100028434800872" target = "_blank"><i class="fa fa-facebook"></i></a></li>
+                              <li><a href="https://www.instagram.com/winterberry._._/" target = "_blank"><i class="fa fa-instagram"></i></a></li>
+                              <li><a href="https://www.linkedin.com/in/joyce-chen-ahs/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
+                    <div class="officer-item">
+                        <img src="" alt="arav tewari">
                         <div class="down-content">
-                            <span>Secretary</span>
-                            <h4>Edward Liu</h4>
+                            <h4>Arav Tewari</h4>
+                            <span>Vice President</span>
                             <p></p>
                             <ul class="social-icons">
-                                <li><a href="https://www.facebook.com/danton.chiu.3" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/dnton.c/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-<!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
+                              <li><a href="https://www.facebook.com/profile.php?id=100028434800872" target = "_blank"><i class="fa fa-facebook"></i></a></li>
+                              <li><a href="https://www.instagram.com/winterberry._._/" target = "_blank"><i class="fa fa-instagram"></i></a></li>
+                              <li><a href="https://www.linkedin.com/in/joyce-chen-ahs/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
+                    <div class="officer-item">
+                        <img src="assets/images/joycee.jpg" alt="joyce chen">
                         <div class="down-content">
-                            <span>Activities Director</span>
-                            <h4>Brandon Liu</h4>
-                            <p></p>
+                            <h4>Joyce Chen</h4>
+                            <span>President</span>
+                            <p>Hey, I'm Joyce, a senior at AHS! Through this club, I hope to create a safe and welcoming environment for every student interested in CS :) Some of my hobbies include listening to Lauv and Hua Chenyu, watching kdramas, and browsing Facebook memes! </p>
                             <ul class="social-icons">
-                                <li><a href="https://www.facebook.com/brandon.liu.98837" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/brandon._.boiii/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/brandon-liu-065827195/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-<!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
+                              <li><a href="https://www.facebook.com/profile.php?id=100028434800872" target = "_blank"><i class="fa fa-facebook"></i></a></li>
+                              <li><a href="https://www.instagram.com/winterberry._._/" target = "_blank"><i class="fa fa-instagram"></i></a></li>
+                              <li><a href="https://www.linkedin.com/in/joyce-chen-ahs/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
+                    <div class="officer-item">
+                        <img src="assets/images/joycee.jpg" alt="joyce chen">
                         <div class="down-content">
-                            <span>Publicist</span>
-                            <h4>Maya Ashok</h4>
-                            <p></p>
+                            <h4>Joyce Chen</h4>
+                            <span>President</span>
+                            <p>Hey, I'm Joyce, a senior at AHS! Through this club, I hope to create a safe and welcoming environment for every student interested in CS :) Some of my hobbies include listening to Lauv and Hua Chenyu, watching kdramas, and browsing Facebook memes! </p>
                             <ul class="social-icons">
-                                <li><a href="https://www.facebook.com/oupadhyay5.0"><i class="fa fa-facebook" target="_blank"></i></a></li>
-                                <li><a href="https://www.instagram.com/ojaswupadhyay/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/ojasw/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://github.com/oupadhyay" target="_blank"><i class="fa fa-github"></i></a></li>
-<!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
+                              <li><a href="https://www.facebook.com/profile.php?id=100028434800872" target = "_blank"><i class="fa fa-facebook"></i></a></li>
+                              <li><a href="https://www.instagram.com/winterberry._._/" target = "_blank"><i class="fa fa-instagram"></i></a></li>
+                              <li><a href="https://www.linkedin.com/in/joyce-chen-ahs/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-      <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3">
-                    <div class="section-heading">
-                        <h2>Practice Session <em>Instructors</em></h2>
-                        <img src="assets/images/triangles__1_-removebg-preview.png" alt="triangles" style="width: 3em;">
-                        <p>Our team - the people who help coordinate events, make curriculums, </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Instructor</span>
-                            <h4>Sahith Karra</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-<!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Instructor</span>
-                            <h4>Olivier Vannier</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-<!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Instructor</span>
-                            <h4>Zhaorong Tu</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-<!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="trainer-item">
-                        <div class="image-thumb">
-                            <img src="assets/images/first-trainer.jpg" alt="">
-                        </div>
-                        <div class="down-content">
-                            <span>Instructor</span>
-                            <h4>Ricky Dong</h4>
-                            <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-<!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-              <div class="row">
-                  <div class="col-lg-6 offset-lg-3">
-                      <div class="section-heading">
-                          <h2>Activities <em>Commissioners</em></h2>
-                          <img src="assets/images/triangles__1_-removebg-preview.png" alt="triangles" style="width: 3em;">
-                          <p>Our team - the people who help coordinate events, make curriculums, </p>
-                      </div>
-                  </div>
-              </div>
-              <div class="row">
-                  <div class="col-lg-4">
-                      <div class="trainer-item">
-                          <div class="image-thumb">
-                              <img src="assets/images/first-trainer.jpg" alt="">
-                          </div>
-                          <div class="down-content">
-                              <span>Activities Commsioner</span>
-                              <h4>Urvi Bhuwania</h4>
-                              <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
-                              <ul class="social-icons">
-                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-  <!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-                              </ul>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-4">
-                      <div class="trainer-item">
-                          <div class="image-thumb">
-                              <img src="assets/images/first-trainer.jpg" alt="">
-                          </div>
-                          <div class="down-content">
-                              <span>Activities Commissioner</span>
-                              <h4>Sahith Karra</h4>
-                              <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
-                              <ul class="social-icons">
-                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                  <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-  <!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-                              </ul>
-                          </div>
-                      </div>
-                  </div>
-
-              </div>
-          </div>
-
-          <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-3">
-                        <div class="section-heading">
-                            <h2>Underclassmen <em>Representatives</em></h2>
-                            <img src="assets/images/triangles__1_-removebg-preview.png" alt="triangles" style="width: 3em;">
-                            <p>Our team - the people who help coordinate events, make curriculums, </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4">
-                        <div class="trainer-item">
-                            <div class="image-thumb">
-                                <img src="assets/images/first-trainer.jpg" alt="">
-                            </div>
-                            <div class="down-content">
-                                <span>Sophomore Representative</span>
-                                <h4>Edward Liu</h4>
-                                <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
-                                <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-    <!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="trainer-item">
-                            <div class="image-thumb">
-                                <img src="assets/images/first-trainer.jpg" alt="">
-                            </div>
-                            <div class="down-content">
-                                <span>Freshman Representative</span>
-                                <h4>Sejal Zope</h4>
-                                <p>Bitters cliche tattooed 8-bit distillery mustache. Keytar succulents gluten-free vegan church-key pour-over seitan flannel.</p>
-                                <ul class="social-icons">
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-    <!--                                 <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="container">
                   <div class="row">
